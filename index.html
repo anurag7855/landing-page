@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dk- Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(247, 247, 251);
+            color: white;
+            font-family: 'poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18,18,62);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        main hr{
+            border: 0;
+            background-color: blueviolet;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        a{
+            text-decoration: none;
+            color: rgb(245, 246, 248);
+        }
+        a:hover{
+            color: rgb(242, 0, 255);
+           
+        }
+        .left{
+            font-size: 1.5rem;
+           
+
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+
+        }
+        .firstSection >div{
+            width: 30%;
+            color: black;
+        }
+        .leftSection{
+            font-size: 1rem;
+            
+            
+        }
+          
+        .leftSection .btn{
+            padding: 12px;
+             background: blue;
+             color: rgb(20, 23, 191);
+             border-radius: 6px;
+             border: 2px solid white;
+             cursor: pointer;
+
+             
+        }
+        .rightSection img{
+            width: 120%;
+            margin-bottom: 90px;
+            
+            
+        }
+         
+        .purple{
+            color:rgb(11, 17, 195);
+            font-size: 50px;
+        }
+        .text-grey{
+            color: gray;
+        }
+        #element{
+            color: blueviolet;
+        }
+        .icon ul {
+            display: flex;
+            justify-content: center;
+        }
+        .icon ul li{
+            list-style: none;
+            margin: 0 10px;
+            background-color: rgb(128, 22, 22);
+        }
+footer{
+    
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size:10px; 
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anurag portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a href="#">  Home  </a></li>
+                   <li> <a href="#">  About  </a></li>
+                   <li> <a href="#">  Services </a></li>
+                   <li> <a href="#">   Projects </a></li>
+                   <li>  <a href="#">  contact me </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"><p>Hello,I am <br><span class="purple">Anurag</span></p>
+                  <div class="lock">and I am a passionate</div>
+                  
+                 
+                 <span id="element"></span>
+                 <br><br><br>
+                 <div class="buttons">
+                    <button class="btn"><a href="C:\Users\Mukesh Kumar Lahre\Desktop">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/anurag7855">Visit_Github</a></button>
+
+                 </div>
+                 
+                </div>
+            <div class="rightSection"><img src="Anu.png" alt=""></div>
+             
+
+            </section>
+            <hr>
+             
+    </main>
+    
+     <div class="icon">
+        <ul> 
+            <li>
+        <a href="https:/youtube.com/@DibakarVpoints"><i class="fa-brands fa-youtube"></i></a></li>
+
+      <li>  <a href="https://www.instagram.com/being_anuragbaghel/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+
+        <li><a href="https://www.linkedin.com/in/anurag-satnami-66a418255/"><i class="fa-brands fa-linkedin"></i></a></li>
+        
+      <li>  <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+        </ul>
+     </div>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: [' web developer', 'Graphic designer', 'web designer'],
+          typeSpeed: 50,
+        });
+      </script>
+      <footer>
+        <p>&copy; 2023 Anurag.All Rights Reserved.</p>
+      </footer>
+</body>
+</html>
